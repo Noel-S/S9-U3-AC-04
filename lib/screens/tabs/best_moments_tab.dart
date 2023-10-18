@@ -32,6 +32,7 @@ class BestMomentsTab extends StatelessWidget {
           title: Text('Building a Strong Support Network'),
           subtitle: Text('While single, I focused on building strong and meaningful relationships with friends and family. These connections provided emotional support, camaraderie, and a sense of belonging throughout life\'s ups and downs.'),
         ),
+        SizedBox(height: 100),
       ],
     );
   }

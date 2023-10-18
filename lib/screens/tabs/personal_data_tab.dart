@@ -32,6 +32,7 @@ class PersonalDataTab extends StatelessWidget {
           title: Text('Email'),
           subtitle: Text('hola@noel-s.com'),
         ),
+        SizedBox(height: 100),
       ],
     );
   }

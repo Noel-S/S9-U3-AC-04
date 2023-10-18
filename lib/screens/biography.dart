@@ -39,6 +39,7 @@ class _BiographyState extends State<Biography> {
                 ),
                 collapseMode: CollapseMode.parallax,
                 title: const Text('Biography', style: TextStyle(color: Colors.black)),
+                centerTitle: true,
                 titlePadding: const EdgeInsetsDirectional.only(bottom: 90),
               ),
               bottom: const TabBar(
@@ -51,6 +52,7 @@ class _BiographyState extends State<Biography> {
               ),
             ),
             const SliverFillRemaining(
+              hasScrollBody: true,
               child: SizedBox(
                 child: Padding(
                   padding: EdgeInsets.only(top: 20),

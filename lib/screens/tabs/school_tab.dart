@@ -40,6 +40,7 @@ class SchoolTab extends StatelessWidget {
           index: 4,
           showEndLine: false,
         ),
+        SizedBox(height: 100),
       ],
     );
   }
